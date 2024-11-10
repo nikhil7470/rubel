@@ -1,0 +1,33 @@
+Installation
+Clone the repository
+
+git clone https://github.com/yourusername/WatchToEarnApp.git
+cd WatchToEarnApp
+Install backend dependencies
+
+
+cd backend
+npm install
+Install frontend dependencies
+
+bash
+
+cd ../frontend
+npm install
+Configure Environment Variables Create a .env file in the backend folder with the following:
+
+
+MONGO_URI=your_mongodb_uri
+Start the application
+
+Backend: Open a terminal and start the server
+bash
+
+cd backend
+npm start
+
+Frontend: Open a new terminal and start the React app
+bash
+
+cd frontend
+npm start
